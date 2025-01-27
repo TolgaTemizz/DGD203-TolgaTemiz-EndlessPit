@@ -1,4 +1,4 @@
-﻿// Game.cs
+// Game.cs
 using System;
 
 class Game
@@ -62,21 +62,31 @@ class Game
         {
             Console.Clear();
             map.DisplayMap();
-            Console.WriteLine("Type the name of the location to travel there, or type 'exit' to quit:");
+            Console.WriteLine("Type the name of the location to travel there, 'inventory' to view your inventory, or type 'exit' to quit:");
+            Console.WriteLine("Tip: Type 'inventory' to see the items you've collected.");
 
             string locationName = Console.ReadLine();
             if (locationName.ToLower() == "exit")
                 break;
-
-            Location location = map.GetLocation(locationName);
-            if (location != null)
+            else if (locationName.ToLower() == "inventory")
             {
-                location.Enter(inventory);
+                inventory.ShowInventory();
+                Console.WriteLine("You can view your collected items here.");
+                Console.WriteLine("Press any key to return to the map.");
+                Console.ReadKey();
             }
             else
             {
-                Console.WriteLine("Invalid location. Press any key to continue.");
-                Console.ReadKey();
+                Location location = map.GetLocation(locationName);
+                if (location != null)
+                {
+                    location.Enter(inventory);
+                }
+                else
+                {
+                    Console.WriteLine("Invalid location. Press any key to continue.");
+                    Console.ReadKey();
+                }
             }
         }
     }
