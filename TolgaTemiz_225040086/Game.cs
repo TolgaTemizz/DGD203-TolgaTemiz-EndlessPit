@@ -50,7 +50,7 @@ class Game
     {
         Console.Clear();
         Console.WriteLine("--- Credits ---");
-        Console.WriteLine("Game Developer: Your Name");
+        Console.WriteLine("Game Developer: Tolga Temiz");
         Console.WriteLine("Assets: Open Source Resources");
         Console.WriteLine("Press any key to return to the menu.");
         Console.ReadKey();
