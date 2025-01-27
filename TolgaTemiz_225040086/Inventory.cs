@@ -1,4 +1,3 @@
-﻿// Inventory.cs
 using System;
 using System.Collections.Generic;
 
@@ -17,6 +16,24 @@ class Inventory
         Console.WriteLine($"You have obtained: {item}");
     }
 
+    public void RemoveItem(string item)
+    {
+        if (items.Contains(item))
+        {
+            items.Remove(item);
+            Console.WriteLine($"{item} has been removed from your inventory.");
+        }
+        else
+        {
+            Console.WriteLine($"{item} is not in your inventory.");
+        }
+    }
+
+    public bool HasItem(string item)
+    {
+        return items.Contains(item);
+    }
+
     public void ShowInventory()
     {
         Console.WriteLine("--- Inventory ---");
@@ -31,5 +48,7 @@ class Inventory
                 Console.WriteLine(item);
             }
         }
+        Console.WriteLine("\nPress any key to return.");
+        Console.ReadKey();
     }
 }
