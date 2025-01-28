@@ -1,0 +1,14 @@
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\bin\Debug\net8.0\TolgaTemiz_225040086.exe
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\bin\Debug\net8.0\TolgaTemiz_225040086.deps.json
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\bin\Debug\net8.0\TolgaTemiz_225040086.runtimeconfig.json
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\bin\Debug\net8.0\TolgaTemiz_225040086.dll
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\bin\Debug\net8.0\TolgaTemiz_225040086.pdb
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.AssemblyInfoInputs.cache
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.AssemblyInfo.cs
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.csproj.CoreCompileInputs.cache
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.dll
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\refint\TolgaTemiz_225040086.dll
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.pdb
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\TolgaTemiz_225040086.genruntimeconfig.cache
+C:\Users\W11\Desktop\programmig final\TolgaTemiz_225040086\obj\Debug\net8.0\ref\TolgaTemiz_225040086.dll
