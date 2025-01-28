@@ -1,4 +1,3 @@
-﻿// Map.cs
 using System;
 using System.Collections.Generic;
 
@@ -12,7 +11,8 @@ class Map
         {
             { "Forest", new Location("Forest", "A dense forest with tall trees.", new NPC("Wandering Merchant")) },
             { "Cave", new Location("Cave", "A dark and damp cave. There seems to be a treasure chest.", new Chest("Ancient Coin")) },
-            { "Village", new Location("Village", "A small peaceful village.", null) }
+            { "Village", new Location("Village", "A small peaceful village. A poor villager is asking for help.", null) },
+            { "Castle", new Location("Castle", "An ancient castle where the king awaits your arrival.", null) }
         };
     }
 
@@ -23,6 +23,7 @@ class Map
         {
             Console.WriteLine(location);
         }
+        Console.WriteLine("\n(Type 'inventory' to view your items or 'exit' to return to the menu.)");
     }
 
     public Location GetLocation(string name)
